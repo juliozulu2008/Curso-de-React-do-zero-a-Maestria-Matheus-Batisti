@@ -3,6 +3,7 @@ import "./App.css";
 //Image
 import a from "./assets/img/happy-dog.jpg";
 import ManageData from "./components/ManageData";
+import ListRender from "./components/ListRender";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <img src={a} alt="Imagem 3" />
         </div>
         <ManageData />
+        <ListRender />
+        {/*"Rederizando Lista "*/}
       </div>
     </>
   );
